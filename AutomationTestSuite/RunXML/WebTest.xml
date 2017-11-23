@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite PUBLIC "SYSTEM" "http://testng.org/testng-1.0.dtd">
+<suite name="testsuite" verbose="1">
+    <listeners>
+        <listener class-name="core.TestListener"/>
+    </listeners>
+    <test name="Verify_Added_Amazon_Items_in_Cart">
+        <classes>
+            <class name="testcases.app.amazon.amazontestcases">
+                <methods>
+                    <include name="Auto_TC001"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

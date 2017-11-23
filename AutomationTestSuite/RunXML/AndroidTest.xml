@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite PUBLIC "SYSTEM" "http://testng.org/testng-1.0.dtd">
+<suite name="testsuite" verbose="1">
+    <listeners>
+        <listener class-name="core.TestListener"/>
+    </listeners>
+	<test name="Verify_AliExpress_Category_List_Items">
+        <classes>
+            <class name="testcases.app.ali.alitestcases">
+                <methods>
+                    <include name="Auto_TC001"/>
+                </methods>
+            </class>
+        </classes>
+    </test>  
+   	<test name="Verify_AliExpress_Global_Search_Result">
+        <classes>
+            <class name="testcases.app.ali.alitestcases">
+                <methods>
+                    <include name="Auto_TC002"/>
+                </methods>
+            </class>
+        </classes>
+    </test>  
+</suite>
