@@ -107,7 +107,7 @@ Test case detailes are kept in RunOrder sheet (RunOrder_Amazon.xlsx). RunOrder s
 3. Automation Test Class path
 4. Run Status
 
-util.DriverXMLGenerator is executed in order to get the run details from RunOrder sheet and generate TestNG run xml
+util.DriverXMLGenerator is a main class and needs to be  executed in order to get the run details from RunOrder sheet and generate TestNG run xml
 
 ```
 	<test name="Verify_Added_Amazon_Items_in_Cart">
